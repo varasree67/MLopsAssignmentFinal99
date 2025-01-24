@@ -35,9 +35,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Install DVC
-        run: pip install dvc
-      - name: Pull dataset with DVC
-        run: dvc pull -r myremote
+        run: pip install -r requirements.txt
+     
       - name: Verify dataset
         run: ls -l data/
 
