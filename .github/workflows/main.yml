@@ -3,10 +3,10 @@ name: ML CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - mlops1
   pull_request:
     branches:
-      - main
+      - mlops1
 
 jobs:
   lint:
