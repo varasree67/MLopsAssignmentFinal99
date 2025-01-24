@@ -1,5 +1,5 @@
 flake8
 pytest
-dvc
+dvc[gdrive]
 mlflow
 scikit-learn
