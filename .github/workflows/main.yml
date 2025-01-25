@@ -39,7 +39,7 @@ jobs:
       - name: Pull dataset with DVC
         run: dvc pull
       - name: Verify dataset
-        run: ls -l data/
+        run: ls -l /
 
   mlflow-track:
     runs-on: ubuntu-latest
